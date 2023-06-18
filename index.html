@@ -319,47 +319,6 @@
         </div>
       </div>
     </div>
-    <div class="crud">
-      <div class="w-75 m-auto">
-          <h2 class="p-4 text-center ">CRUDS System</h2>
-          <h4 class="p-2 text-center">I created this section for Sef interview </h4>
-
-          <label class="p-2 " for="productNameInput">Product Name:</label>
-          <input class="form-control" type="text" id="productNameInput">
-
-          <label class="p-2 "  for="productPriceInput">Product Price:</label>
-          <input class="form-control" type="number" id="productPriceInput">
-
-          <label class="p-2 " for="productCategoryInput">Product Category:</label>
-          <input class="form-control" type="text" id="productCategoryInput">
-
-          <label class="p-2 " for="productdecInput">Product Description:</label>
-          <textarea  class="form-control" id="productdecInput"></textarea>
-
-          <button id="btnAdd" onclick="addProduct()" class=" btn btn-outline-info mt-4">Add Product</button>
-          <button id="btnUpdate" onclick="newUpdata()" class="d-none btn btn-outline-success mt-4">Update</button>
-
-
-          
-          <label class="p-4 d-block" for="searchInput">Search</label>
-          <input oninput="searchProduct(this.value)"  class="form-control" id="searchInput"></input>
-          
-      </div>
-      <table class="table m-auto w-75 mt-5">
-          <thead>
-              <th>index</th>
-              <th>Name</th>
-              <th>Price</th>
-              <th>Category</th>
-              <th>Dec</th>
-              <th>Update</th>
-              <th>Delete</th>
-          </thead>
-          <tbody id="tbodyProduct">
-          </tbody>
-
-      </table>
-   </div>
     <div class="subscribe pt-5 pb-5 text-center text-md-start">
       <div class="container">
         <form class="row align-items-center">
@@ -448,6 +407,5 @@
     </div>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/all.min.js"></script>
-    <script src="js/main.js"></script>
   </body>
 </html>
